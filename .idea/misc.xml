@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/drawable/icon_email.xml" value="0.14375" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/drawable/icon_lock.xml" value="0.1" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/drawable/icon_phone.xml" value="0.1" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/drawable/icon_user.xml" value="0.1" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/drawable/icon_user_type.xml" value="0.1" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/drawable/round_border.xml" value="0.15364583333333334" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/drawable/round_border_for_button.xml" value="0.12708333333333333" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/drawable/star_icon.xml" value="0.15364583333333334" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/drawable/user_icon.xml" value="0.215625" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/custom_progressbar_layout.xml" value="0.14375" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/fragment_categories.xml" value="0.25" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/fragment_home.xml" value="0.20851063829787234" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/fragment_more.xml" value="0.1375" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/fragment_notification.xml" value="0.14739583333333334" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/layout/settings_activity.xml" value="0.1375" />
+        <entry key="..\:/mechintest viewy/DemoApp/app/src/main/res/menu/menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
