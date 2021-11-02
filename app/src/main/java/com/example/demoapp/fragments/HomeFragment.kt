@@ -2,6 +2,7 @@ package com.example.demoapp.fragments
 
 import CustomProgressDialog
 import android.os.Bundle
+import android.text.method.MetaKeyKeyListener
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -51,6 +52,7 @@ class HomeFragment : Fragment() {
                 txtUsertype.text.toString().trim()
             )
         }
+
 
     }
 
@@ -138,21 +140,11 @@ class HomeFragment : Fragment() {
                 progressDialog.hideProgressbar()
                 if (response.code() == 200) {
                     val registerResponse = response.body()!!
-                    if (registerResponse.meta.statusCode == 400) {
-                        view?.let {
-                            Snackbar.make(it, registerResponse.data.message, Snackbar.LENGTH_LONG)
-                                .setAction("Action", null)
-                                .show()
-                        }
-                    } else {
-                        view?.let {
-                            Snackbar.make(it, "Successfully saved", Snackbar.LENGTH_LONG)
-                                .setAction("Action", null)
-                                .show()
-                        }
+                    view?.let {
+                        Snackbar.make(it, registerResponse.data.message, Snackbar.LENGTH_LONG)
+                            .setAction("Action", null)
+                            .show()
                     }
-
-
                 }
             }
 
